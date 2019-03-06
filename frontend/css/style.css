@@ -1,0 +1,314 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -mox-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body, html {
+  background-image: url('https://pre00.deviantart.net/0aa4/th/pre/f/2009/350/0/d/light_blue_textured_paper_by_thaily_stock.jpg');
+  width: 100%;
+  height: 100;
+  margin: 0;
+}
+
+.headingBar {
+  margin-left: 0;
+  margin-bottom: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  background-color: #E8F4F8;
+  width: 100%;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.headingBar img {
+}
+
+.headingBar h2 {
+  margin-left: 2%;
+
+}
+
+#main_div {
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  margin-left: 1%;
+  margin-top: 0;
+}
+
+#scrapbook_logo:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.experience_form {
+  width: 30%;
+  min-width: 200px;
+}
+
+.experience_cards {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 300px;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.experience_card {
+  max-width: 500px;
+  min-width: 100px;
+  max-width: 400px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #16a085;
+  padding: 1%;
+  margin-left: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  min-height: 100px;
+  max-height: 400px;
+  background-color: #E8F4F8;
+  /* display: table; */
+}
+
+.experience_media {
+  max-width: 500px;
+  max-height: 400px;
+  margin: 0 auto;
+}
+
+.experience_details {
+  /* display: flex;
+  flex-wrap: wrap; */
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.experience_card img, .experience_card iframe {
+  width: 100%;
+  object-fit: contain;
+  box-sizing: border-box;
+}
+
+img.resize {
+  max-width:300px;
+  max-height:150px;
+}
+
+iframe.resize {
+  max-width: 300px;
+  max-height: 150px;
+}
+
+#add-button {
+  margin-top: 3%;
+  min-width: 60%;
+}
+
+.edit_button {
+
+}
+
+.delete_button {
+
+}
+
+h1, h2 {
+  text-align: center;
+  color: #1abc9c;
+}
+
+fieldset {
+  border-color: #16a085;
+}
+
+h1 {
+    font-family:  'Space Mono', monospace;
+    font-size: 2em;
+    height: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1.5%;
+}
+
+h2, h3 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/* .subheading {
+  margin: 0;
+} */
+
+h2, p, h3, label, legend, button {
+  font-family: 'Questrial', sans-serif;
+  color: #1abc9c;
+}
+
+button {
+  font-size: 1em;
+  margin: 3%;
+}
+
+.input[type="button"]
+{
+	position: relative;
+	display: block;
+  padding: 5%;
+	color: #FFF;
+	margin: 0 auto;
+	background: #1abc9c;
+	font-size: 1em;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+
+.experience_form legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.experience_form label {
+	display: block;
+	margin-bottom: 8px;
+}
+.experience_form input[type="text"],
+.experience_form input[type="date"],
+.experience_form input[type="datetime"],
+.experience_form input[type="email"],
+.experience_form input[type="number"],
+.experience_form input[type="search"],
+.experience_form input[type="time"],
+.experience_form input[type="url"],
+.experience_form textarea,
+.experience_form select {
+	font-family: 'Questrial', sans-serif;;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 1em;
+	margin: 0;
+	outline: 0;
+	padding: 5%;
+	width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #E8F4F8;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 10px;
+}
+.experience_form input[type="text"]:focus,
+.experience_form input[type="date"]:focus,
+.experience_form input[type="datetime"]:focus,
+.experience_form input[type="email"]:focus,
+.experience_form input[type="number"]:focus,
+.experience_form input[type="search"]:focus,
+.experience_form input[type="time"]:focus,
+.experience_form input[type="url"]:focus,
+.experience_form textarea:focus,
+.experience_form select:focus{
+	background: #d2d9dd;
+}
+.experience_form select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.experience_form .number {
+	background: #1abc9c;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.experience_form input[type="submit"],
+.experience_form input[type="button"]
+{
+	position: relative;
+	display: block;
+  padding: 5%;
+	color: #FFF;
+	margin: 0 auto;
+	background: #1abc9c;
+	font-size: 1em;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.experience_form input[type="submit"]:hover,
+.experience_form input[type="button"]:hover
+{
+	background: #109177;
+}
+
+#comment-box {
+  margin-top: 3%;
+}
+
+
+/* Media styles */
+@media screen and (max-width: 480px) {
+
+  .experience_form {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .experience_cards, .experience_media {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .experience_details {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1em;
+  }
+
+
+  .experience_buttons {
+    padding-left: 0.2em;
+  }
+
+  .headingBar {
+    padding-bottom: 0.5em;
+  }
+}

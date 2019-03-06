@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="./css/style.css" media-"screen"/>
+  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/logo_xsmall.png"/>
+  <script defer src="./js/index.js"></script>
+  <title>Social Scrapbook Your Year</title>
+</head>
+<body>
+  <div class="headingBar">
+      <h2>My Year</h2>
+    <h1>Social Scrapbook</h1>
+
+      <img id="scrapbook_logo" src="logo_xsmall.png"/>
+  </div>
+  <!-- <div class="subheader"> -->
+    <!-- <h2>My Year</h2>
+  </div> -->
+<div id="main_div">
+  <div class="experience_form">
+    <form>
+      <fieldset>
+      <legend><span class="number">1</span>Event Info</legend>
+      <input id="experience_name" type="text" name="field1" placeholder="Name of your event">
+      <label>Select the date</label>
+      <input id="experience_date" type="date" name="field2" placeholder="Select a date">
+      <label>Media type</label>
+      <select id="media_type" name="media_type">
+        <option value="image">Image</option>
+        <option value="youtube video">YouTube Video</option>
+      </select>
+      <label>Add URL</label>
+      <input id="experience_media_link" type="text" name="field3" placeholder="URL">
+      <label for="category">Category:</label>
+      <select id="experience_category" name="field4">
+      <optgroup label="Category">
+        <option value="">Drop down to select</option>
+        <option value="Concert">Concert</option>
+        <option value="Exhibition">Exhibition</option>
+        <option value="Theatre">Theatre</option>
+        <option value="Sports">Sports</option>
+        <option value="Book">Book</option>
+        <option value="TV series">TV series</option>
+        <option value="Film">Film</option>
+        <option value="Other">Other</option>
+      </optgroup>
+      </select>
+      </fieldset>
+      <fieldset id="comment-box">
+      <legend><span class="number">2</span>Comment</legend>
+      <textarea id="experience_comment" name="field3" placeholder="Add a comment"></textarea>
+      </fieldset>
+      <input id="add-button" type="submit" value="Add to your scrapbook" />
+    </form>
+  </div>
+  <div class="experience_cards">
+
+
+  </div>
+</div>
+
+
+</body>
+</html>
